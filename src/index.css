@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+
+body{
+  overflow: hidden;
+}
+
+/* Container with perspective for 3D effect */
+.scene {
+  width: 100px;
+  height: 100px;
+  perspective: 600px;
+  cursor: pointer;
+}
+
+/* Cube container that preserves its 3D children */
+.cube {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+/* Each face of the cube */
+.cube-face {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  backface-visibility: hidden;
+}
+
+/* Position each face with proper 3D transforms */
+.cube-face--front {
+  transform: translateZ(50px);
+}
+.cube-face--back {
+  transform: rotateY(180deg) translateZ(50px);
+}
+.cube-face--right {
+  transform: rotateY(90deg) translateZ(50px);
+}
+.cube-face--left {
+  transform: rotateY(-90deg) translateZ(50px);
+}
+.cube-face--top {
+  transform: rotateX(90deg) translateZ(50px);
+}
+.cube-face--bottom {
+  transform: rotateX(-90deg) translateZ(50px);
+}
