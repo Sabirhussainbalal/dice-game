@@ -1,12 +1,16 @@
-# React + Vite
+# 🎲 Dice Battle: A Luck-Based Challenge!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Dice Battle is a simple yet engaging dice game built with React. Players select a number, roll the dice, and earn or lose points based on the outcome. The game features smooth 3D dice animation, a time tracker, sound effects, and interactive UI feedback.
 
-Currently, two official plugins are available:
+## Features
+✅ 3D Dice Rolling Animation  
+✅ Sound Effects for Realistic Experience  
+✅ Score System - Gain or Lose Points Based on Rolls  
+✅ Timer to Track Game Duration  
+✅ Interactive UI with Real-Time Feedback  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Sabirhussainbalal/dice-game.git
